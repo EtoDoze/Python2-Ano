@@ -1,0 +1,9 @@
+A = []
+B = []
+C = []
+
+for i in range(0,15):
+    A.append(int(input(f"insira o valor {i+1} de A:")))
+    B.append(int(input(f"insira o valor {i+1} de B:")))
+C = A + B
+print("Lista C:",C,"Lista A:",A,"lista B:",B)

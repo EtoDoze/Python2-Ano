@@ -6,3 +6,5 @@ for i in range(0,15):
     B.append(A[i] ** 2)
     
 print("Lista A:",A,"Lista B:",B)
+
+

@@ -1,0 +1,8 @@
+A = []
+B = []
+
+for i in range(0,20):
+    A.append(int(input(f"Insira o valor {i+1}° de A:")))
+    B.append(A[i])
+B.reverse()
+print("A:",A,"B:",B)

@@ -1,0 +1,12 @@
+A = []
+B = []
+C = []
+D = []
+
+for i in range(0,5):
+    A.append(int(input(f"Insira o valor do {i+1}° de A:")))
+    B.append(int(input(f"Insira o valor do {i+1}° de B:")))
+    C.append(int(input(f"Insira o valor do {i+1}° de C:")))
+    
+D = A + B + C
+print("A Lista A:",A,"Lista B:",B,"Lista C:",C,"Lista D:",D)
