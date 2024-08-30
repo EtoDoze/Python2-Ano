@@ -1,5 +1,9 @@
-import numeros
+#import numeros_gayses as num
+#soma = num.numero + num.numero2
+#print(soma)
 
-soma = numeros.numero + numeros.numero2
+import numeros_gayses as num
 
-print(soma)
+num.soma(num.numero, num.numero2)
+
+#pacote: pasta especial onde tem outros modulos e outros pacotes,   precisa ter um arquivo "___init___.py"
