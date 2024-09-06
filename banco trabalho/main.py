@@ -1,3 +1,5 @@
+import Dados as Contas
+
 def linha(bar):
     print("-" * bar)
 
@@ -9,9 +11,18 @@ cadastro = str(input("Bem vindo, você ainda não está cadastrado. Deseja reali
 
 if cadastro == 'sim' or 'Sim' or 'S' or 's':
     print("Otimo")
-    nome = str(input("Qual seu nome?:"))
 
 else:
     print("Ok, encerrando o programa...")
 
-print(f"Certo, Sr {nome}")
+print("Certo, proximo passo")
+
+Nome = str(input("Insira seu nome:"))
+cpf_user = str(input("Insira seu CPF:"))
+
+if Contas.Ver_CPF(cpf_user):
+    print("CPF válido")
+else:
+    print("CPF inválido")
+    
+Email = str(input("Insira seu Email:"))
