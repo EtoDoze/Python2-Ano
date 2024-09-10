@@ -1,4 +1,3 @@
-
 def Ver_CPF(cpf):
     # Remove caracteres não numéricos
     cpf = ''.join(filter(str.isdigit, cpf))
