@@ -40,7 +40,10 @@ while True:
 print(f"Tudo certo sr(a) {Nome}")
 Tipo_Conta = str(input("Qual tipo de conta deseja criar? (Corrente ou Poupança):")).lower()
 
+if Tipo_Conta == "1":  Tipo_Conta = "corrente"
+elif Tipo_Conta == "2":  Tipo_Conta = "poupança"
 while True:
+    
     if Tipo_Conta not in ['corrente', 'poupança']:
         print("Tipo de conta inválido")
         Tipo_Conta = str(input("Qual tipo de conta deseja criar? (Corrente ou Poupança):"))
